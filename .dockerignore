@@ -1,0 +1,9 @@
+participant/input
+participant/output
+participant/**/__pycache__
+participant/**/out_check_solution
+*.tar
+*.zip
+pp_train_data
+local_eval
+.git

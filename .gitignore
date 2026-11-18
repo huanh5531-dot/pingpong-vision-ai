@@ -1,0 +1,27 @@
+# Large submission tarballs, datasets, and downloaded archives (>100MB GitHub limit)
+*.tar
+*.zip
+participant.zip等2个文件/
+pp_train_data/
+**/public_data/videos/
+*.mp4
+
+# Extracted OCI / Docker image manifest artifacts in root
+/oci-layout
+/index.json
+/manifest.json
+/repositories
+
+# Runtime input/output and TensorRT caches
+participant/input/
+participant/output/
+**/out_check_solution/
+**/trt_cache/
+
+# Python & OS / Office temp files
+__pycache__/
+*.py[cod]
+*.egg-info/
+~$*
+.DS_Store
+Thumbs.db
